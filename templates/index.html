@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Prediction</title>
+</head>
+<body>
+    <h1>Temperature Prediction</h1>
+
+    <!-- HTML form for user input -->
+    <form method="POST" action="/predict">
+        <label for="min_temp">Minimum Temperature (°C):</label>
+        <input type="number" id="min_temp" name="min_temp" required><br><br>
+        
+        <label for="max_temp">Maximum Temperature (°C):</label>
+        <input type="number" id="max_temp" name="max_temp" required><br><br>
+        
+        <input type="submit" value="Predict">
+    </form>
+
+    <!-- Display predicted temperature here -->
+    {% if prediction_text %}
+    <h2>{{ prediction_text }}</h2>
+    {% endif %}
+</body>
+</html>

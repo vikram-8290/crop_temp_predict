@@ -1,0 +1,13 @@
+Stage,Crop,Soil Type,Soil Moisture (%),Fertilization,Pest & Disease Management,Climate,Irrigation Management,Min Temperature (°C),Max Temperature (°C)
+Germination(first stage ) 7-14days,Maize,Loamy,50-60,Nitrogen,Regular monitoring,Arid,As needed,25.0,30.0
+Vegetative(20-50 day) after 1st stage,Maize,Loamy,70-80,Nitrogen,Regular monitoring,Arid,As needed,25.0,35.0
+reproductive(60-80)  days after 1st stage,Maize,Loamy,70-80,Nitrogen,Regular monitoring,Arid,As needed,25.0,35.0
+Grain Filling(70-90DAYS) AFTER 1ST STAGE ,Maize,Loamy,60-70,Nitrogen,Regular monitoring,Arid,As needed,25.0,35.0
+Germination(5-10 days) initial stage for wheat,Wheat,Loamy,50-60,Phosphorus,Regular monitoring,Arid,As needed,15.0,25.0
+Tillering(2-4) week after germination ,Wheat,Loamy,60-70,Phosphorus,Regular monitoring,Arid,As needed,15.0,30.0
+Jointing(6-9 ) weeek after germination,Wheat,Loamy,60-70,Phosphorus,Regular monitoring,Arid,As needed,15.0,30.0
+Heading & Filling( 9-12 week) after germination ,Wheat,Loamy,60-70,Phosphorus,Regular monitoring,Arid,As needed,15.0,30.0
+,,,,,,,,20.0,31.25
+,,,,,,,,20.0,31.25
+,,,,,,,,20.0,31.25
+,,,,,  ,,,20.0,31.25
